@@ -7,3 +7,8 @@ The code which contains everything to construct and test the neural network is f
 These predictions can be evaluated in the evaluations jupyter notebook. Running all of these cells will import the test_pred.csv file, and making use of plasticc_test_metadata, will calculate the competition scores for the predictions. Also in this file, a confusion matrix will be constructed as well.
 
 The third jupyter notebook, lightcurves, is used just for light curve plotting. Running it will look at training and test data, plotting one lightcurve for each class of object.
+
+runpbmet is a helper script which runs feature engineering related to passbands
+
+Estimate_by_GT.py is a helper script usaed by evaluations which is used to help calculate competition score. It was created by a fellow Kaggle competitor, who is sited in my paper. https://www.kaggle.com/c/PLAsTiCC-2018/discussion/78366#614486.
+
